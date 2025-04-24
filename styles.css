@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Block';
+    src: url('Block-font.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hertz';
+    src: url('HertzVF.ttf') format('truetype-variations');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Motion';
+    src: url('MotionVF.ttf') format('truetype-variations');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lean';
+    src: url('LeanVF.ttf') format('truetype-variations');
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: monospace;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.text-input-container {
+    margin-bottom: 3rem;
+    border: 2px solid #000;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.text-input {
+    width: 100%;
+    min-height: 150px;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-family: monospace;
+    font-size: 1rem;
+    resize: vertical;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.font-container {
+    background-color: #eee;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border: 2px solid #000;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.slider-group, .style-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.slider-group label, .style-group label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.weight-value, .reverse-value {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-family: monospace;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: 2px solid #000;
+}
+
+.preview {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #000;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-text {
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+}
+
+#block-font .preview-text {
+    font-family: 'Block', monospace;
+    font-size: 24px;
+}
+
+#hertz-font .preview-text {
+    font-family: 'Hertz', monospace;
+    font-size: 24px;
+}
+
+#motion-font .preview-text {
+    font-family: 'Motion', monospace;
+    font-size: 24px;
+}
+
+#lean-font .preview-text {
+    font-family: 'Lean', monospace;
+    font-size: 24px;
+}
+
+.download-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #fff;
+    color: #000;
+    outline: 2px solid #000;
+} 

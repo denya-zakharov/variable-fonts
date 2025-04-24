@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenChay Fonts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GreenChay Fonts</h1>
+        
+        <div class="text-input-container">
+            <textarea class="text-input" placeholder="Type your text here...">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789</textarea>
+        </div>
+
+        <div class="font-container" id="block-font">
+            <h2>BLOCK FONT</h2>
+            <div class="controls">
+                <div class="slider-group">
+                    <label>Size</label>
+                    <input type="range" min="12" max="72" value="24" class="size-slider">
+                </div>
+            </div>
+            <div class="preview">
+                <p class="preview-text"></p>
+            </div>
+            <button class="download-btn" data-font="Block-font.otf">DOWNLOAD FONT</button>
+        </div>
+
+        <div class="font-container" id="hertz-font">
+            <h2>HERTZ FONT</h2>
+            <div class="controls">
+                <div class="slider-group">
+                    <label>Size</label>
+                    <input type="range" min="12" max="72" value="24" class="size-slider">
+                </div>
+                <div class="slider-group">
+                    <label>Weight</label>
+                    <input type="range" min="100" max="200" value="150" step="1" class="weight-slider">
+                    <span class="weight-value">150</span>
+                </div>
+            </div>
+            <div class="preview">
+                <p class="preview-text"></p>
+            </div>
+            <button class="download-btn" data-font="HertzVF.ttf">DOWNLOAD FONT</button>
+        </div>
+
+        <div class="font-container" id="motion-font">
+            <h2>MOTION FONT</h2>
+            <div class="controls">
+                <div class="slider-group">
+                    <label>Size</label>
+                    <input type="range" min="12" max="72" value="24" class="size-slider">
+                </div>
+                <div class="slider-group">
+                    <label>Weight</label>
+                    <input type="range" min="0" max="100" value="50" step="1" class="weight-slider">
+                    <span class="weight-value">50</span>
+                </div>
+            </div>
+            <div class="preview">
+                <p class="preview-text"></p>
+            </div>
+            <button class="download-btn" data-font="MotionVF.ttf">DOWNLOAD FONT</button>
+        </div>
+
+        <div class="font-container" id="lean-font">
+            <h2>LEAN FONT</h2>
+            <div class="controls">
+                <div class="slider-group">
+                    <label>Size</label>
+                    <input type="range" min="12" max="72" value="24" class="size-slider">
+                </div>
+                <div class="slider-group">
+                    <label>Width</label>
+                    <input type="range" min="50" max="200" value="100" step="1" class="width-slider">
+                    <span class="width-value">100%</span>
+                </div>
+                <div class="slider-group">
+                    <label>Weight</label>
+                    <input type="range" min="100" max="900" value="400" step="1" class="weight-slider">
+                    <span class="weight-value">400</span>
+                </div>
+                <div class="slider-group">
+                    <label>Tilt</label>
+                    <input type="range" min="-45" max="45" value="0" step="1" class="tilt-slider">
+                    <span class="tilt-value">0°</span>
+                </div>
+            </div>
+            <div class="preview">
+                <p class="preview-text"></p>
+            </div>
+            <button class="download-btn" data-font="LeanVF.ttf">DOWNLOAD FONT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
