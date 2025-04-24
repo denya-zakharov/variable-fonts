@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Block';
-    src: url('Block-font.otf') format('opentype');
+    src: url('fonts/Block-font.otf') format('opentype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Hertz';
-    src: url('HertzVF.ttf') format('truetype-variations');
+    src: url('fonts/HertzVF.ttf') format('truetype-variations');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Motion';
-    src: url('MotionVF.ttf') format('truetype-variations');
+    src: url('fonts/MotionVF.ttf') format('truetype-variations');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Lean';
-    src: url('LeanVF.ttf') format('truetype-variations');
+    src: url('fonts/LeanVF.ttf') format('truetype-variations');
     font-display: swap;
 }
 
